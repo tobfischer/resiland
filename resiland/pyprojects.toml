@@ -1,0 +1,10 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "jitcxde_common > 1.3",
+    "symengine >= 0.3.1.dev0",
+    "scipy",
+    "numpy"
+]
+build-backend = "setuptools.build_meta"
